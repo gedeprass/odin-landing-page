@@ -1,0 +1,22 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: #1F2937;
+  line-height: 1.6;
+}
+
+/* Warna dalam bentuk variabel */
+:root {
+  --dark: #1F2937;
+  --light-text: #F9FAF8;
+  --secondary-text: #E5E7EB;
+  --btn: #3882F6;
+}
+
